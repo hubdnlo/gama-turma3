@@ -23,22 +23,22 @@ public class Exercicio01 {
         System.out.println("Digite o 2o Valor:");
         valor2 = teclado.nextInt();
 
-        teclado.close();
+        //teclado.close();
         System.out.println("Suas notas são: nota 1: " + valor1 + ", nota 2: " + valor2 + ". Média final: "
                 + ((valor1 + valor2) / 2));
 
-        /*Scanner teclado2 = new Scanner(System.in);
+        //Scanner teclado2 = new Scanner(System.in);
         double Nota1, Nota2, Media;
 
         System.out.println("Digite o 1a Nota:");
-        Nota1 = teclado.nextInt();
+        Nota1 = teclado.nextDouble();
         System.out.println("Digite o 2a Nota:");
-        Nota2 = teclado.nextInt();
+        Nota2 = teclado.nextDouble();
 
-        Media = Nota1 + Nota2 / 2;
+        Media = (Nota1 + Nota2) / 2;
 
         System.out.println("Suas notas são: nota 1: " + Nota1 + ", nota 2: " + Nota2 + ". Média final: " + Media);
 
-        teclado.close();*/
+        teclado.close();
     }
 }
