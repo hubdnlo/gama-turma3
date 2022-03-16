@@ -13,8 +13,11 @@ public class Exercicio03 {
         int mostrar;
 		
 		Scanner teclado = new Scanner(System.in);
-		System.out.println("Informe o número");
+		System.out.println("Informe o número");        
 		mostrar = teclado.nextInt();
+
+        teclado.close();
+
 		for (int contador=1; contador<=mostrar; contador ++) {
                System.out.print(contador+" ");
         }

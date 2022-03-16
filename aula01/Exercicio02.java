@@ -22,11 +22,13 @@ public class Exercicio02 {
     double ValorLimiteParcela = Salario * 0.3;
     System.out.println("O valor limite de cada parcela é de R$ "+ValorLimiteParcela);
 
+    teclado.close();
+
     if(ValorParcela > ValorLimiteParcela){
         System.out.println("Empréstimo não concedido");
         return;
     }
     System.out.println("Empréstimo concedido");
     }
-
+    
 }

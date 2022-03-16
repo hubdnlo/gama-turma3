@@ -18,16 +18,16 @@ public class Exercicio01 {
         int valor2;
 
         Scanner teclado = new Scanner(System.in);
-        System.out.println("Digite o 1o Valor:");
+        System.out.println("Digite a 1o Nota:");
         valor1 = teclado.nextInt();
-        System.out.println("Digite o 2o Valor:");
+        System.out.println("Digite o 2o Nota:");
         valor2 = teclado.nextInt();
 
-        //teclado.close();
+        
         System.out.println("Suas notas são: nota 1: " + valor1 + ", nota 2: " + valor2 + ". Média final: "
                 + ((valor1 + valor2) / 2));
 
-        //Scanner teclado2 = new Scanner(System.in);
+        
         double Nota1, Nota2, Media;
 
         System.out.println("Digite o 1a Nota:");
