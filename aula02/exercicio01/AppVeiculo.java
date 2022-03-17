@@ -1,4 +1,4 @@
-package exercio01;
+package exercicio01;
 
 public class AppVeiculo {
     public static void main(String[] args) {
@@ -9,7 +9,7 @@ public class AppVeiculo {
         System.out.println("Consumo = " + veiculo.getConsumo());
         
         veiculo2.mostrar();
-        veiculo2.setConsumo(12);
+        veiculo2.setConsumo(-12);
         System.out.println("Consumo = " + veiculo2.getConsumo());  
     }
 }

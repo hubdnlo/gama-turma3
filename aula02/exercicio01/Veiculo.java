@@ -1,8 +1,9 @@
-package exercio01;
+package exercicio01;
 /*
 Crie a classe veículo, com os atributos modelo, marca e consumo (quantos km/l).
 Faça um construtor para inicializar os atributos da classe.
-Escreva um método para mostrar na tela os dados do carro (modelo, marca) e outro método para retornar o valor do consumo.
+Escreva um método para mostrar na tela os dados do carro (modelo, marca) e outro método para retornar 
+o valor do consumo.
 Faça um arquivo com o método main para testar a classe criada, ou seja, criar um objeto e exibir os dados.
 */
 
@@ -32,7 +33,7 @@ public class Veiculo {
 			System.out.println("Consumo alterado com sucesso");
 			return;
 		}
-		System.out.println("Consumo não alterado. Inclua um valor maior ou igual a o");
+		System.out.println("Consumo não alterado. Inclua um valor maior ou igual a 0");
 		return;
 	}
 }
