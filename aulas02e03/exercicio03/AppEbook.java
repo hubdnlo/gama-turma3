@@ -13,9 +13,10 @@ public class AppEbook {
         livro.voltarPagina();
         System.out.println(livro.getPaginaAtual());
 
-        boolean alterou = livro.irParaPagina(400);
+        boolean alterou = livro.irParaPagina(90);
         if(alterou){
             System.out.println("Foi para a página");
+            return;
         }
         System.out.println("Página inválida");        
         
