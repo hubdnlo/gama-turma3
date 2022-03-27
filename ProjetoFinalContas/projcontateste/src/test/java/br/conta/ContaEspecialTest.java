@@ -15,7 +15,7 @@ public class ContaEspecialTest {
 
     @Test
     public void deveSacarValor(){      
-        c.saca(150);
-        assertEquals(-50, c.getSaldo());     
+        c.saca(250);
+        assertEquals(100, c.getSaldo());     
     }
 }

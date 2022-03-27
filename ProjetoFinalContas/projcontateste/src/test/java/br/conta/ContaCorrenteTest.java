@@ -15,8 +15,8 @@ public class ContaCorrenteTest {
 
     @Test
     public void deveSacarValor(){      
-        c.saca(100);
-        assertEquals(0, c.getSaldo());     
+        c.saca(200);
+        assertEquals(100, c.getSaldo());     
     }
 
     @Test
